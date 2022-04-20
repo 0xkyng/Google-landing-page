@@ -160,7 +160,7 @@ body{
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent black transparent; */
+    border-color: transparent transparent black transparent;
 }
 .links ul li{
     list-style: none;
@@ -208,9 +208,6 @@ body{
 }
 .second-nav a:hover {
     text-decoration: underline;
-}
-footer{
-    /* position: fixed; */
 }
 .footer-nav{
     text-align: left;
