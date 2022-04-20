@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    position: fixed;
+    width: 100%;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.nav ul{
+    text-align: right;
+    
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 3px;
+    margin-right: 15px;
+    
+}
+.nav .active{
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.nav ul li a.active:hover{
+    text-decoration: none;
+}
+.meu-wrapper{
+    display: inline-block;
+}
+.menu{
+    position: relative;
+}
+.menu .tooltiptext{
+    visibility: hidden;
+    font-size: 14px;
+    width: 90px;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    padding: 3.5px 1px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-left: -60px;
+    margin-top: 25px;
+}
+
+.menu:hover .tooltiptext{
+    visibility: visible;
+}
+.menu:hover{
+    border-radius: 50%;
+    background-color: whitesmoke;
+    padding: 8px;
+
+}
+
+#google{
+    font-size: 42px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.orange{
+    color: orange;
+}
+.blue{
+    color: blue;
+}
+#input input[type=text] {
+    padding-left: 10px;
+    
+}
+
+#input{
+    padding: 10px;
+    width: 45%;
+    border-radius: 20px;
+    height: 45px;
+    border: 0.1px solid rgb(173, 169, 169);
+    outline: none; 
+    padding: 0 50px 0 50px;
+}
+#input:hover {
+   box-shadow: 1px 3px 8px 2px rgba(0, 0, 0, 0.2), -1px -3px 8px  rgba(0, 0, 0, 0.4);
+   /* padding: 20px; */
+   border: 0.1px solid rgb(173, 169, 169);
+}
+.empty{
+    padding-right: 60px;
+
+}
+
+.search{
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    right: 280px;
+    
+}
+.mic{
+    position: relative;
+    bottom: 48px;
+    left: 270px;
+}
+
+.mic .tooltiptext{
+    visibility: hidden;
+    font-size: 14px;
+    width: 100px;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    padding: 3.5px 1px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-left: -50px;
+    margin-top: 15px;
+}
+
+.mic:hover .tooltiptext{
+    visibility: visible;
+}
+.mic:hover .tooltiptext::after{
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent; */
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+.links a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 6px 15px;
+    color: rgb(102, 90, 90);
+}
+.links .link-one {
+    display: inline-block;
+    border: 1px solid black;
+    background-color:whitesmoke;
+    border-radius: 3px;
+    padding: 10px 20px;
+    border: none;
+    margin-bottom: 20px;
+    /* margin-top: 30px; */
+}
+.link-one:hover{
+    border: 1px solid  rgb(187, 179, 179);
+    /* padding: 7px; */
+}
+.links .link-two{
+    border: 1px solid black;
+    background-color:whitesmoke;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+.link-two:hover{
+    border: 1px solid  rgb(187, 179, 179);
+}
+.second-nav a{
+    text-decoration: none;
+    margin: 3px;
+    font-size: 15px;
+}
+.second-nav a:hover {
+    text-decoration: underline;
+}
+footer{
+    /* position: fixed; */
+}
+.footer-nav{
+    text-align: left;
+    height: 3em;
+    background-color: whitesmoke;
+    margin-top: 170px;
+    border-bottom: 1px solid whitesmoke;
+}
+.footer-nav p{
+    position: relative;
+    top: 12px;
+    color: rgb(94, 92, 92);
+    font-size: 14px;
+}
+ .main-links{
+     text-align: left;
+     display: block;
+     height: 3em;
+    background-color: whitesmoke;
+    border-top: 3px solid rgb(126, 118, 118);
+ }
+ .main-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 14px;
+ }
+ .main-links ul li a{
+     text-decoration: none;
+     margin: 5px;
+     color: rgb(94, 92, 92);
+ }
+ .main-links li:hover{
+     text-decoration: underline;
+ }
+
+ .middle{
+     display: inline-block;
+     position: relative;
+    bottom: 26px;
+    font-size: 14px;
+ }
+ .middle:hover{
+     text-decoration:underline;
+ }
+ .last-nav ul li{
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+    left: 500px;
+    margin: 5px;
+    font-size: 14px;
+ }
+ .last-nav ul li a{
+     text-decoration: none;
+     color: rgb(94, 92, 92);
+ }
+ .last-nav ul li:hover{
+     text-decoration: underline;
+ }
+ 
+ /* @media (max-width: 804px) {
+    .bottom-foot-content-main {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .top-foot-content {
+        position: fixed;
+        bottom: 78.5px;
+    }
+    .bottom-foot-content {
+        min-height: 57px;
+        max-height: 59px;
+        position: fixed;
+    }
+    .bottom-foot-left {
+        margin-left: 0;
+        margin-right: 20px;
+        margin-top: 25px;
+    }
+    .bottom-foot-left a,
+    .bottom-foot-right a {
+        margin: 0 10px 0 10px;
+    }
+@media (max-width: 687px) {
+    .google-search {
+        width: 78%;
+    }
+    .google-search-input {
+        width: calc(100% - 6rem);
+    }
+}
+@media (max-width: 330px) {
+    .google-search-buttons {
+        flex-direction: column;
+    }
+    .google-translate {
+        top: 31rem;
+    }
+} */
